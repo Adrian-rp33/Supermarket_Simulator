@@ -8,13 +8,13 @@
   in this case it has 2 properties, code (int) and item_amount (int).
   
   On the other hand, it's a thread too, not exactly, but let's break this down: 
-  Checkout has a function that is the heart of how the simulation works, <bold>check_items()</bold>, 
+  Checkout has a function that is the heart of how the simulation works, <strong>check_items()</strong>, 
   this function, as it's name say, check one by one each item asing to that checkout, as 
-  mentioned before is a int variable, so it repeats a <bold>check_item()</bold> certain amount of times 
+  mentioned before is a int variable, so it repeats a <strong>check_item()</strong> certain amount of times 
   before finishing, to simulate as it was checking items, it will wait from 1 to 3 sec to do each item, being 
   a random amount of time for each item.
 
-  Last but not least, all threads are <bold>daemon</bold>, whenever the user wants to stop the simulation, it can be done 
+  Last but not least, all threads are <strong>daemon</strong>, whenever the user wants to stop the simulation, it can be done 
   just by pressing 'Enter', once a checkout is done, is shown how many items it scanned and when all checkouts are done, 
   the program will exit
 </p>
